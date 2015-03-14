@@ -4,6 +4,7 @@
 {-# LANGUAGE DeriveFunctor #-}
 {-# LANGUAGE FlexibleInstances #-}
 {-# OPTIONS_GHC -Wall #-}
+-- | Based on <http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=B5415A02F7DD5AD7665B59E390E70BCD?doi=10.1.1.358.1211&rep=rep1&type=pdf "Update monads: Cointerpreting Directed Containers"> by Danel Ahman and Tarmo Uustalu
 module Control.Monad.Update
   ( RightMonoidAction(..)
   , UpdateT(..)
